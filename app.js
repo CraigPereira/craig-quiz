@@ -25,7 +25,7 @@ form.addEventListener('submit', e => {
 		if(output === score){
 			clearInterval(timer);
 		}else{
-			output++
+			output++;
 		}
 	}, 10);
 	
