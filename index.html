@@ -3,9 +3,137 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 	<title>Craig's Quiz</title>
 </head>
 <body>
-	
+
+	<!--Top Section-->
+	<div class="intro py-3 bg-dark text-center">
+		<div class="container">
+			<h2 class="text-danger display-3 my-4">Craig's Quiz</h2>
+		</div>
+	</div>
+
+	<!--Quiz section-->
+	<div class="quiz py-4 bg-danger">
+		<div class="container">
+			<h2 class="my-5 text-dark">How many answers can you get right?</h2>
+
+			<form class="quiz-form text-dark">
+				<!--Question one-->
+				<div class="my-5">
+					<p class="lead font-weight-normal">What is Craig's favourite 
+						fruit?</p>
+						<!--Option 1-->
+						<div class="form-check my-2 text-dark">
+							<input type="radio" name="q1" value="A" checked>
+							<label class="form-check-label">Orange</label>
+						</div>
+						<!--Option 2-->
+						<div class="form-check my-2 text-dark">
+							<input type="radio" name="q1" value="B">
+							<label class="form-check-label">Banana</label>
+						</div>
+						<!--Option 3-->
+						<div class="form-check my-2 text-dark">
+							<input type="radio" name="q1" value="C">
+							<label class="form-check-label">Apple</label>
+						</div>
+				</div>  
+
+				<!--Question Two-->
+				<div class="my-5">
+					<p class="lead font-weight-normal">What is Craig's favourite
+						drink?
+					</p>
+						<!--Option 1-->
+						<div class="form-check my-2 text-dark">
+							<input type="radio" name="q2" value="A" checked>
+							<label class="form-check-label">Milk</label>
+						</div>
+						<!--Option 2-->
+						<div class="form-check my-2 text-dark">
+							<input type="radio" name="q2" value="B">
+							<label class="form-check-label">Water</label>
+						</div>
+						<!--Option 3-->
+						<div class="form-check my-2 text-dark">
+							<input type="radio" name="q2" value="C">
+							<label class="form-check-label">Coffee</label>
+						</div>
+				</div>
+
+				<!--Question Three-->
+				<div class="my-5">
+					<p class="lead font-weight-normal">What would Craig do on a weekend?
+					</p>
+						<!--Option 1-->
+						<div class="form-check my-2 text-dark">
+							<input type="radio" name="q3" value="A" checked>
+							<label class="form-check-label">Go to the club</label>
+						</div>
+						<!--Option 2-->
+						<div class="form-check my-2 text-dark">
+							<input type="radio" name="q3" value="B">
+							<label class="form-check-label">Stay at home and relax</label>
+						</div>
+						<!--Option 3-->
+						<div class="form-check my-2 text-dark">
+							<input type="radio" name="q3" value="C">
+							<label class="form-check-label">Go to the gym</label>
+						</div>
+				</div>
+				
+				<!--Question Four-->
+				<div class="my-5">
+					<p class="lead font-weight-normal">Where would Craig go on a holiday?
+					</p>
+						<!--Option 1-->
+						<div class="form-check my-2 text-dark">
+							<input type="radio" name="q4" value="A" checked>
+							<label class="form-check-label">Japan</label>
+						</div>
+						<!--Option 2-->
+						<div class="form-check my-2 text-dark">
+							<input type="radio" name="q4" value="B">
+							<label class="form-check-label">Europe</label>
+						</div>
+						<!--Option 3-->
+						<div class="form-check my-2 text-dark">
+							<input type="radio" name="q4" value="C">
+							<label class="form-check-label">Canada</label>
+						</div>
+				</div>
+
+				<!--Question Five-->
+				<div class="my-5">
+					<p class="lead font-weight-normal">What is Craig's favourite music genre?
+					</p>
+						<!--Option 1-->
+						<div class="form-check my-2 text-dark">
+							<input type="radio" name="q5" value="A" checked>
+							<label class="form-check-label">Rap/Pop</label>
+						</div>
+						<!--Option 2-->
+						<div class="form-check my-2 text-dark">
+							<input type="radio" name="q5" value="B">
+							<label class="form-check-label">Craig has a diverse taste in music</label>
+						</div>
+						<!--Option 3-->
+						<div class="form-check my-2 text-dark">
+							<input type="radio" name="q5" value="C">
+							<label class="form-check-label">Heavy metal</label>
+						</div>
+				</div>
+				<div class="text-center">
+					<input type="submit" class="btn btn-dark text-danger">
+				</div>
+			</form>	
+
+		</div>
+	</div>
+
+		<script	src="app.js"></script>
 </body>
 </html>
